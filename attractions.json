@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "name": "Central Park",
+    "type": "Park",
+    "address": "New York, USA",
+    "rating": 4.7,
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfZqwXOO_3ORRHzi8RC1dahthrD4kV04VVBA&s",
+    "description": "A large public park in the heart of Manhattan, offering scenic views and recreational activities."
+  },
+  {
+    "id": 2,
+    "name": "Eiffel Tower",
+    "type": "Monument",
+    "address": "Paris, France",
+    "rating": 4.9,
+    "image": "EiffelTower.jpg.crdownload.jfif",
+    "description": "One of the world's most famous landmarks, offering panoramic views of Paris."
+  },
+  {
+    "id": 3,
+    "name": "Louvre Museum",
+    "type": "Museum",
+    "address": "Paris, France",
+    "rating": 4.8,
+    "image": "louvre museum.jfif",
+    "description": "The world's largest art museum, home to the Mona Lisa and other masterpieces."
+  },
+  {
+    "id": 4,
+    "name": "Golden Gate Bridge",
+    "type": "Monument",
+    "address": "San Francisco, USA",
+    "rating": 4.6,
+    "image": "GoldenGateBridge.jpg",
+    "description": "A famous suspension bridge connecting San Francisco to Marin County."
+  },
+  {
+    "id": 5,
+    "name": "Disneyland",
+    "type": "Theme Park",
+    "address": "California, USA",
+    "rating": 4.8,
+    "image": "disneyland.jfif",
+    "description": "A magical amusement park featuring rides, attractions, and Disney characters."
+  },
+  {
+    "id": 6,
+    "name": "Taj Mahal",
+    "type": "Monument",
+    "address": "Agra, India",
+    "rating": 4.9,
+    "image": "tajmahal.jfif",
+    "description": "A white marble mausoleum and UNESCO World Heritage Site, built by Mughal Emperor Shah Jahan."
+  },
+  {
+    "id": 7,
+    "name": "Sydney Opera House",
+    "type": "Monument",
+    "address": "Sydney, Australia",
+    "rating": 4.8,
+    "image": "opera house.jfif",
+    "description": "An iconic performing arts venue with a unique architectural design."
+  },
+  {
+    "id": 8,
+    "name": "Great Wall of China",
+    "type": "Monument",
+    "address": "China",
+    "rating": 4.7,
+    "image": "greatwall.jfif",
+    "description": "A historic fortification built to protect China from invasions."
+  },
+  {
+    "id": 9,
+    "name": "Colosseum",
+    "type": "Monument",
+    "address": "Rome, Italy",
+    "rating": 4.8,
+    "image": "colosseum.jfif",
+    "description": "An ancient Roman amphitheater, once used for gladiator fights."
+  },
+  {
+    "id": 10,
+    "name": "Burj Khalifa",
+    "type": "Monument",
+    "address": "Dubai, UAE",
+    "rating": 4.9,
+    "image": "burjkhalifa.jfif",
+    "description": "The tallest building in the world, offering breathtaking city views."
+  },
+  {
+    "id": 11,
+    "name": "Grand Canyon",
+    "type": "Natural Wonder",
+    "address": "Arizona, USA",
+    "rating": 4.9,
+    "image": "grandcanyon.jfif",
+    "description": "A stunning natural canyon carved by the Colorado River."
+  },
+  {
+    "id": 12,
+    "name": "Statue of Liberty",
+    "type": "Monument",
+    "address": "New York, USA",
+    "rating": 4.8,
+    "image": "statueofliberty.jfif",
+    "description": "A symbol of freedom and democracy, gifted by France to the USA."
+  },
+  {
+    "id": 13,
+    "name": "Santorini",
+    "type": "Island",
+    "address": "Greece",
+    "rating": 4.8,
+    "image": "santorini.jfif",
+    "description": "A picturesque island with whitewashed buildings and stunning sunsets."
+  },
+  {
+    "id": 14,
+    "name": "Niagara Falls",
+    "type": "Natural Wonder",
+    "address": "USA/Canada Border",
+    "rating": 4.9,
+    "image": "niagarafall.jfif",
+    "description": "One of the most famous and powerful waterfalls in the world."
+  },
+  {
+    "id": 15,
+    "name": "Machu Picchu",
+    "type": "Ancient Site",
+    "address": "Peru",
+    "rating": 4.9,
+    "image": "machupichu.jfif",
+    "description": "An ancient Incan city located high in the Andes Mountains."
+  },
+  {
+    "id": 16,
+    "name": "Tokyo Tower",
+    "type": "Monument",
+    "address": "Tokyo, Japan",
+    "rating": 4.7,
+    "image": "tokyotower.jfif",
+    "description": "A communications and observation tower offering stunning views of Tokyo."
+  }
+]

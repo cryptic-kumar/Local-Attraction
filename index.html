@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="firebase-config.js"></script>
+    <!-- Firebase config -->
+    <script src="auth.js" defer></script>
+    <!-- Authentication logic -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Local Attractions Guide</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <header>
+        <h1>Local Attractions Guide</h1>
+        <input
+          type="text"
+          id="searchBox"
+          placeholder="Search..."
+          oninput="searchAttractions()"
+        />
+        <select id="filterCategory" onchange="filterByCategory()">
+          <option value="all">All Categories</option>
+          <option value="Park">Parks</option>
+          <option value="Museum">Museums</option>
+          <option value="Monument">Monuments</option>
+          <option value="Theme Park">Theme Parks</option>
+        </select>
+        <button onclick="resetFilters()">Reset</button>
+        <button onclick="viewFavorites()">View Favorites</button>
+        <a href="login.html" id="login-btn" class="login-btn">Login</a>
+      </header>
+    </header>
+
+    <main>
+      <h2>Nearby Attractions</h2>
+      <div id="attractionsList"></div>
+    </main>
+    <script src="auth.js"></script>
+  </body>
+</html>

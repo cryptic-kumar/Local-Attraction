@@ -1,0 +1,200 @@
+/* General Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(to right, #ffdde1, #ee9ca7);
+  color: #333;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background: #d63384;
+  color: white;
+  padding: 20px;
+  font-size: 26px;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Buttons */
+button {
+  background: linear-gradient(135deg, #ff66b2, #d63384);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button:hover {
+  background: linear-gradient(135deg, #e60073, #b8005a);
+  transform: scale(1.05);
+}
+
+/* Search & Filter */
+.controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin: 20px 0;
+}
+
+input,
+select {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ff66b2;
+  border-radius: 6px;
+  outline: none;
+}
+
+input:focus,
+select:focus {
+  border-color: #d63384;
+}
+
+/* Card Layout */
+#attractionsList,
+#favoritesList {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  justify-content: center;
+}
+
+.attraction-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.attraction-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.attraction-card img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.attraction-card h3 {
+  font-size: 22px;
+  color: #d63384;
+  margin: 12px 0;
+  font-weight: bold;
+}
+
+.attraction-card p {
+  font-size: 15px;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+/* Form Box (Login & Register) */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.form-box {
+  background: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+  text-align: center;
+  width: 350px;
+  animation: fadeIn 0.8s ease-in-out;
+}
+
+.form-box h2 {
+  color: #d63384;
+  margin-bottom: 15px;
+}
+
+.form-box input {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border: 2px solid #ff66b2;
+  border-radius: 6px;
+  font-size: 16px;
+  outline: none;
+}
+
+.form-box input:focus {
+  border-color: #d63384;
+}
+
+/* Back to Home Button */
+.back-btn {
+  background: #555;
+  margin-top: 10px;
+  width: auto;
+}
+
+.back-btn:hover {
+  background: #333;
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .controls {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  input,
+  select,
+  button {
+    width: 90%;
+    max-width: 320px;
+  }
+
+  .form-box {
+    width: 90%;
+  }
+}
+@media (max-width: 480px) {
+  header h1,
+  h2 {
+    font-size: 20px;
+  }
+
+  .attraction-card h3 {
+    font-size: 18px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 10px;
+  }
+}
